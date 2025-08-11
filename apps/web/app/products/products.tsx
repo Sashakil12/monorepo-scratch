@@ -1,4 +1,7 @@
 import { Product } from "@repo/types";
+
+export const dynamic = 'force-dynamic';
+
 export default async function Products() {
   const response = await fetch(`${process.env.API_URL}/products`, {
     next: {
