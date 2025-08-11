@@ -19,6 +19,7 @@ console.log("products arr resp", response)
         <>
           <h3>{el.id}</h3>
           <h1>{el.name}</h1>
+          <p>products</p>
         </>
       ))}
 
